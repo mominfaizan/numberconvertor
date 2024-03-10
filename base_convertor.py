@@ -339,7 +339,9 @@ def hexadecimaltooctal():
         if(decimalnumber>=1):
             innerfunction(decimalnumber//8)
         print(decimalnumber % 8, end = '')
-    innerfunction(decimalnumber)        
+    innerfunction(decimalnumber)   
+
+#you can say that this is main function in which code start
 def choicefunction():
  print("which number system do you want to convert:")
  print("1.binary")
